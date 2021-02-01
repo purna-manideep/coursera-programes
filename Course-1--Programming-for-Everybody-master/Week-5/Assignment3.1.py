@@ -6,11 +6,11 @@ Use 45 hours and a rate of 10.50 per hour to test the program (the pay should be
 You should useraw_input to read a string and float() to convert the string to a number.
 Do not worry about error checking the user input - assume the user types numbers properly.
 '''
-hrs = raw_input("Enter Hours:")
+hrs = input("Enter Hours:")
 h = float(hrs)
-rate =float(raw_input("Enter Rate:"))
+rate =float(input("Enter Rate:"))
 if h > 40 :
     rate1 = (rate * 1.5) * (h-40)
     
 pay = ((h-5)*rate) + rate1
-print pay
+print (pay)
